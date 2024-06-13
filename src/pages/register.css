@@ -1,0 +1,27 @@
+.registro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.btn-siguiente {
+    margin-top: 20px;
+}
+
+.btn-anterior {
+    margin-top: 20px;
+}

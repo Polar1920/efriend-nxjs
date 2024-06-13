@@ -1,0 +1,46 @@
+body {
+    font-family: Open Sans;
+}
+
+.registro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.btn-siguiente {
+    margin-top: 20px;
+}
+
+.visualizer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    /* Ajusta según sea necesario */
+}
+
+.btn-hablar {
+    position: relative;
+    z-index: 1;
+}
